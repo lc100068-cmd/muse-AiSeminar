@@ -11,9 +11,9 @@ const presentation=Presentation.create({slideSize:{width:1280,height:720}});
   while(presentation.slides.items.length) presentation.slides.getItem(0).delete();
   presentation.theme.defaultFont='Hiragino Maru Gothic ProN';
   const root=path.join(repoDir,'assets')+path.sep;
-  const blobs={}; for(const f of ['background.jpg',...['A','B'].flatMap(c=>Array.from({length:6},(_,i)=>c+i+'.jpg'))]) blobs[f]=new Uint8Array(await fs.readFile(root+(f==='background.jpg'?f:'illustrations/'+f)));
+  const blobs={}; for(const f of ['background.jpg',...['A','B'].flatMap(c=>Array.from({length:6},(_,i)=>c+i+'.jpg')),...Array.from({length:4},(_,i)=>'C'+i+'.jpg')]) blobs[f]=new Uint8Array(await fs.readFile(root+(f==='background.jpg'?f:'illustrations/'+f)));
   const ink='#102C50', coral='#D9634C', blue='#347AA1', green='#357F68';
-  const label={JP:'Meta公式（日本提供）',BIZ:'Meta公式（事業者向け）',SPACES:'Meta公式（Spaces）',SHIFT:'SHIFT AI ニュース',SHISHI:'SHISHIGAMI TECH CH',WONDER:'AI is in wonderland'};
+  const label={TSHIP:'Threads投稿',TRECIPE:'Threads投稿',TAPPS:'Threads投稿',TORG:'Threads投稿',TWEB:'Threads投稿',TSNS:'Threads投稿',TBOUND:'Threads投稿',TPERM:'Threads投稿',JP:'Meta公式（日本提供）',BIZ:'Meta公式（事業者向け）',SPACES:'Meta公式（Spaces）',SHIFT:'SHIFT AI ニュース',SHISHI:'SHISHIGAMI TECH CH',WONDER:'AI is in wonderland'};
   function text(s,name,str,x,y,w,h,size=30,bold=false,color=ink,align='left'){
     const t=s.shapes.add({geometry:'textbox',name,position:{left:x,top:y,width:w,height:h},fill:'none',line:{fill:'none',width:0}});
     t.text=str;t.text.style={typeface:bold?'Hiragino Sans':'Hiragino Maru Gothic ProN',fontSize:size,bold,color,alignment:align,verticalAlignment:'top',autoFit:'none',wrap:'square',insets:0,lineSpacing:1.2}; return t;
@@ -50,7 +50,7 @@ const presentation=Presentation.create({slideSize:{width:1280,height:720}});
     } else if(d.type==='use'){
       text(s,'lead',d.lead,88,188,680,60,34,true,coral);
       text(s,'body',d.body,92,274,640,155,28);
-      text(s,'prompt-label','頼み方の例',92,449,610,40,23,true,blue);
+      text(s,'prompt-label',d.promptLabel||'頼み方の例',92,449,610,40,23,true,blue);
       text(s,'prompt',d.prompt,92,495,665,120,25);
       art(s,d.art,779,204,414,389);
       text(s,'evidence',d.evidence,92,632,1050,33,19,false,blue);
@@ -61,6 +61,11 @@ const presentation=Presentation.create({slideSize:{width:1280,height:720}});
     } else if(d.type==='workshop'){
       text(s,'lead',d.lead,88,195,770,62,34,true,coral);
       d.tasks.forEach((v,j)=>{text(s,'work-n-'+j,String(j+1),92,305+j*84,50,55,34,true,blue);text(s,'work-t-'+j,v,155,310+j*84,630,68,27);});art(s,d.art,844,270,350,310);bottom(s,d.bottom);
+    } else if(d.type==='threadsSources'){
+      text(s,'lead',d.lead,88,187,1080,55,32,true,coral);
+      const rows=[['@nyaon2029','発送管理','TSHIP'],['@sakiushijirushi','レシピ帳','TRECIPE'],['@track_n','アプリ作例と返信','TAPPS'],['@plant_fangs','部門ごとの役割分担','TORG'],['@kaori_saito_555','ホームページ改修','TWEB'],['@aki_no_room','活動分析・プロフィール','TSNS'],['@analog_sugiyama','任せる範囲','TBOUND'],['@pinakano0718','連携と権限','TPERM']];
+      rows.forEach((v,j)=>{const x=j<4?94:690,y=268+(j%4)*82;let t=text(s,'thread-link-'+j,v[0],x,y,505,38,24,true,blue);t.text.get(v[0]).link={uri:spec.sources[v[2]],isExternal:true};text(s,'thread-sub-'+j,v[1],x,y+36,505,33,21);});
+      text(s,'source-limit','収集済みメモに基づく要約。元投稿の再取得・動作の再現は未実施。',135,660,1060,32,18);
     } else if(d.type==='sources'){
       text(s,'video-label','YouTube：字幕・概要欄を確認',88,180,1080,44,27,true,coral);
       const videos=[['SHIFT AI ニュース','基本機能・メールとDM・商談準備・SNS活用','SHIFT','2026.11.11'],['SHISHIGAMI TECH CH','経営者・営業向けの活用提案','SHISHI','2026.10.30'],['AI is in wonderland','クラウドの作業場・画像と動画の実演','WONDER','2026.11.15']];
@@ -69,7 +74,7 @@ const presentation=Presentation.create({slideSize:{width:1280,height:720}});
       [['日本での提供開始','JP'],['小規模事業者向け','BIZ'],['Spaces','SPACES']].forEach((v,j)=>{let t=text(s,'official-'+j,v[0],94+j*375,592,355,42,24,true,blue);t.text.get(v[0]).link={uri:spec.sources[v[1]],isExternal:true};});
       text(s,'asof','情報確認日：2026年11月18日。機能・連携先・料金は提供状況により変わります。',135,650,1075,35,18);
     }
-    if(!['cover','sources','use'].includes(d.type)&&d.sources.length){text(s,'source', '出典：'+d.sources.map(k=>label[k]).join(' ／ '),135,660,1050,27,16,false,blue);}
+    if(!['cover','sources','threadsSources','use'].includes(d.type)&&d.sources.length){const refs=[...new Set(d.sources.map(k=>label[k]))];text(s,'source','出典：'+refs.join(' ／ '),135,660,1050,27,16,false,blue);}
     s.speakerNotes.text=(d.notes||'')+'\n\n出典\n'+d.sources.map(k=>label[k]+'\n'+spec.sources[k]).join('\n\n')+'\n\n情報確認日：2026年11月18日。挿絵はAI生成の説明用イラスト。';
   }
 

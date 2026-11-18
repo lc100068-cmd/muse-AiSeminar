@@ -7,3 +7,5 @@
 - `illustrations/B0.jpg`〜`B5.jpg`：定期作業、Spaces、承認、経費、依頼、ワーク。
 
 生成したシートから各場面を切り出し、スライド用にJPEGへ変換しています。図の文字は架空の画面ラベルとして生成せず、スライド上の編集可能な文字で説明を添えました。生成時の指示は `generation-prompts.json` を参照。
+
+- `illustrations/C0.jpg`〜`C3.jpg`：Threads事例の説明用挿絵（発送、記録帳、役割分担、Web制作）。実際の投稿画面ではありません。
