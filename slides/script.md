@@ -1,11 +1,11 @@
 # Muse 超活用講座：原稿と講師用ノート
-情報確認日：2026年11月18日。全16枚。
+情報確認日：2026年11月18日。全21枚。
 
 ## 01 Muse 超活用講座
 
 あなた専用のAI秘書を、仕事に。
 
-基本機能とビジネス活用
+基本機能・ビジネス活用・Threads事例
 
 
 ### 講師用ノート
@@ -126,23 +126,25 @@ SHIFT AI動画の9:49頃では、メール履歴とWebニュースをもとにA4
 
 投稿の振り返りが、次の企画に
 
-最近の投稿の反応を分析
-自分の体験メモから原稿を作成
+投稿やプロフィールの見直し
+体験メモから原稿を作成
 一週間分のテーマと投稿案を用意
 
 最近の投稿を見て、反応の多いテーマを
 整理して。私のお店に合う投稿案を
 一週間分、下書きで作って。
 
-動画内実演：Instagram分析・Threads原稿
+動画内実演＋Threadsの利用報告：SNS分析と原稿づくり
 
 
 ### 講師用ノート
 SHIFT AI動画の13:10頃からInstagram投稿の傾向分析、14:17頃から体験メモをもとにThreadsの投稿案と週間案を作成している。動画ではThreadsへの公開は本人がコピーして手動で行っている。全SNSへの自動投稿を標準機能として保証しない。依頼文は講座用の例。Meta公式も広告・コンテンツ分析とキャンペーン草案の作成を紹介。
+Threads収集メモでは@aki_no_room（2026-10-25）の活動分析・プロフィールレビューの体験談を紹介。今回、元投稿は再取得できていないため、収集済みメモをもとに要約。本人の体験談であり、分析精度を再現検証した結果ではない。
 
 ### 出典
 - https://www.youtube.com/watch?v=u9PqpLEWgro
 - https://about.fb.com/news/2026/09/introducing-muse-small-business/
+- https://www.threads.com/@aki_no_room/post/De6yZBUEw9E
 
 ## 09 画像や短い動画も、会話で作れる
 
@@ -203,7 +205,93 @@ Spacesは2026年11月6日のMeta公式発表で紹介。Muse提供地域で利�
 ### 出典
 - https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/
 
-## 12 経費整理にも、活用の余地
+## 12 Threads事例① 発送管理
+
+発送日の確認を、ひと目で
+
+発送日が近い順に表示
+期限を過ぎたら画面でお知らせ
+完了をカレンダーと同期した報告
+
+注文と発送期限を一覧にして。
+期限が近い順に並べ、発送したら
+完了を記録できる画面を作って。
+
+投稿者の報告：@nyaon2029 ／ 2026.11.15（未再現）
+
+
+### 講師用ノート
+収集済みThreads調査メモをもとに要約。@nyaon2029はハンドメイド作家の発送管理アプリを紹介し、期限順の並び替え、期限超過の通知表示、Google Calendarとの完了同期を報告。今回、元投稿は再取得できず動作も再現していない。特定の連携設定や全利用者での再現を保証しない。依頼文は講座向けに新規作成した例。
+
+### 出典
+- https://www.threads.com/@nyaon2029/post/DfwkehSj-_4
+
+## 13 Threads事例② 自分専用の記録帳
+
+レシピや買い物の情報をまとめる
+
+レシピを食材や料理名から検索
+欲しいものの価格を定期確認
+日々の確認を、一画面に集める作例
+
+料理名・食材・カテゴリで探せる
+自分用のレシピ帳を作って。
+登録は手入力から始めたい。
+
+投稿者の報告：@sakiushijirushi ／ @track_nの返信（未再現）
+
+
+### 講師用ノート
+収集済みメモの@sakiushijirushi（2026-11-15）は検索・カテゴリ分けができるレシピ帳を紹介。@track_n（2026-11-11）のアプリ披露スレッドの返信では、欲しいものリストの最安値を定期確認して通知する作例が紹介された。返信の個別投稿者と独立した投稿URLはメモに記載がないため、元スレッドを出典とする。両者は別の作例であり、同一の一つのアプリとして説明しない。今回、元投稿の再取得と動作再現は行えていない。依頼文は新規作成した講座用の例。
+
+### 出典
+- https://www.threads.com/@sakiushijirushi/post/DfwLWZmj3kO
+- https://www.threads.com/@track_n/post/DfmbLruDyU5
+
+## 14 Threads事例③ 部門ごとの役割分担
+
+担当ごとに、目的と完成形を決める
+
+動画の企画や分析を担当する部門
+商品の調査や投稿戦略を考える部門
+話題ごとに作業を分ける運用例
+
+調査担当と原稿担当で作業を分けて。
+それぞれの目的と完成形を整理し、
+私が確認できる形にまとめて。
+
+投稿者の運用例：@plant_fangs ／ 2026.11.16（未再現）
+
+
+### 講師用ノート
+収集済みメモでは@plant_fangsがYouTube事業部と楽天ROOM事業部という組織のたとえで、企画、分析、市場調査、投稿戦略を分けている。@track_nスレッド返信にも秘書室と部門に見立てる例がある。これは使い方の工夫であり、実際に独立した複数の従業員やエージェントが常時自律稼働する標準機能を保証するものではない。今回、元投稿再取得と実装検証は行えていない。依頼文は講座用の新規例。
+
+### 出典
+- https://www.threads.com/@plant_fangs/post/DfyzSHxkjrC
+- https://www.threads.com/@track_n/post/DfmbLruDyU5
+
+## 15 Threads事例④ ホームページ制作
+
+放置していたサイトをリニューアル
+
+本人のサイトを1日で改修したという報告
+所要時間は、サイトの規模や素材で変化
+公開前に、内容とリンクを自分で確認
+
+公開中の自分のサイトを参考に、
+伝わりにくい点と修正案を整理して。
+まずはトップページの案を見せて。
+
+投稿者の体験談：@kaori_saito_555 ／ 2026.11.17（未再現）
+
+
+### 講師用ノート
+収集済みメモでは@kaori_saito_555が自分のホームページを一日で全面リニューアルしたと報告。第三者が完成時間や出来栄えを検証したものではない。サイト規模、元の素材、外部ツールや公開手順などの詳細はメモから確定できず、今回の投稿再取得もできていない。「1日」は本人の申告として扱い、一般的な所要時間や性能の保証として使わない。依頼文は講座用の新規例。
+
+### 出典
+- https://www.threads.com/@kaori_saito_555/post/Df0pp7YjCqv
+
+## 16 経費整理にも、活用の余地
 
 領収書を探す手間を減らす
 
@@ -221,7 +309,7 @@ SHISHIGAMI動画の8:16頃の経費突き合わせは、視聴者の申告を起
 - https://www.youtube.com/watch?v=r97zrUFlAvI
 - https://about.fb.com/news/2026/09/introducing-muse-small-business/
 
-## 13 仕事で使うときの、役割分担
+## 17 仕事で使うときの、役割分担
 
 下調べと下書きはMuseへ
 内容の確認と決定は自分で
@@ -235,13 +323,16 @@ SHISHIGAMI動画の8:16頃の経費突き合わせは、視聴者の申告を起
 
 ### 講師用ノート
 日本向け公式発表では重要な操作前の本人確認、接続権限の変更・解除、学習利用のオプトアウト、実行履歴を紹介。事業者向け発表では承認なしの公開・送信・支出をしないと説明。具体的な確認動作は権限設定や機能で異なる。SHIFT AI動画の17分頃以降は学習利用設定、確認設定、接続先の絞り込みを実演。会社で認められた範囲のデータを使う。
+Threads収集メモの@analog_sugiyama（2026-11-12）は、返信漏れ確認や朝の予定整理を任せる一方、人が責任を持つ範囲を決めると説明。@pinakano0718（2026-11-11）は権限を利用者自身で調整する点に言及。今回の元投稿再取得と動作再現は行えていない。
 
 ### 出典
 - https://about.fb.com/ja/news/2026/10/muse-personal-ai-agent-launches-in-japan/
 - https://about.fb.com/news/2026/09/introducing-muse-small-business/
 - https://www.youtube.com/watch?v=u9PqpLEWgro
+- https://www.threads.com/@analog_sugiyama/post/Dfn3T-uDlqs
+- https://www.threads.com/@pinakano0718/post/DfnsmHVEpJu
 
-## 14 伝わりやすい依頼文のつくり方
+## 18 伝わりやすい依頼文のつくり方
 
 目的・材料・完成形を、具体的に
 
@@ -258,7 +349,7 @@ SHISHIGAMI動画の8:16頃の経費突き合わせは、視聴者の申告を起
 
 ### 出典
 
-## 15 ワーク：自分の仕事を一つ任せる
+## 19 ワーク：自分の仕事を一つ任せる
 
 まずは、公開情報だけで試そう
 
@@ -273,7 +364,7 @@ SHISHIGAMI動画の8:16頃の経費突き合わせは、視聴者の申告を起
 
 ### 出典
 
-## 16 参考動画と公式情報
+## 20 参考動画と公式情報
 
 
 ### 講師用ノート
@@ -286,3 +377,21 @@ YouTubeの字幕は自動生成のため、固有名詞・数値は公式情報�
 - https://about.fb.com/ja/news/2026/10/muse-personal-ai-agent-launches-in-japan/
 - https://about.fb.com/news/2026/09/introducing-muse-small-business/
 - https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/
+
+## 21 Threads事例の出典
+
+投稿者の体験談を、用途別に整理
+
+
+### 講師用ノート
+追加資料 research/threads-muse-usage-2026-11-18.md の収集済み要約をもとにスライド化した。今回、Web取得ではThreads元投稿を再取得できなかったため、第三者による独立検証済み事例とは扱わない。いいね数や返信数の大小を性能や普及の根拠にしない。投稿内容を転載せず、短い要約と出典URLを掲載。
+
+### 出典
+- https://www.threads.com/@nyaon2029/post/DfwkehSj-_4
+- https://www.threads.com/@sakiushijirushi/post/DfwLWZmj3kO
+- https://www.threads.com/@track_n/post/DfmbLruDyU5
+- https://www.threads.com/@plant_fangs/post/DfyzSHxkjrC
+- https://www.threads.com/@kaori_saito_555/post/Df0pp7YjCqv
+- https://www.threads.com/@aki_no_room/post/De6yZBUEw9E
+- https://www.threads.com/@analog_sugiyama/post/Dfn3T-uDlqs
+- https://www.threads.com/@pinakano0718/post/DfnsmHVEpJu

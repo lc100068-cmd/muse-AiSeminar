@@ -7,14 +7,22 @@
     "SPACES": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
     "SHIFT": "https://www.youtube.com/watch?v=u9PqpLEWgro",
     "SHISHI": "https://www.youtube.com/watch?v=r97zrUFlAvI",
-    "WONDER": "https://www.youtube.com/watch?v=wC4VN20h39s"
+    "WONDER": "https://www.youtube.com/watch?v=wC4VN20h39s",
+    "TSHIP": "https://www.threads.com/@nyaon2029/post/DfwkehSj-_4",
+    "TRECIPE": "https://www.threads.com/@sakiushijirushi/post/DfwLWZmj3kO",
+    "TAPPS": "https://www.threads.com/@track_n/post/DfmbLruDyU5",
+    "TORG": "https://www.threads.com/@plant_fangs/post/DfyzSHxkjrC",
+    "TWEB": "https://www.threads.com/@kaori_saito_555/post/Df0pp7YjCqv",
+    "TSNS": "https://www.threads.com/@aki_no_room/post/De6yZBUEw9E",
+    "TBOUND": "https://www.threads.com/@analog_sugiyama/post/Dfn3T-uDlqs",
+    "TPERM": "https://www.threads.com/@pinakano0718/post/DfnsmHVEpJu"
   },
   "slides": [
     {
       "type": "cover",
       "title": "Muse\n超活用講座",
       "subtitle": "あなた専用のAI秘書を、仕事に。",
-      "tag": "基本機能とビジネス活用",
+      "tag": "基本機能・ビジネス活用・Threads事例",
       "art": "A0",
       "sources": [
         "JP"
@@ -154,15 +162,16 @@
       "type": "use",
       "title": "活用③ SNS発信の下ごしらえ",
       "lead": "投稿の振り返りが、次の企画に",
-      "body": "最近の投稿の反応を分析\n自分の体験メモから原稿を作成\n一週間分のテーマと投稿案を用意",
+      "body": "投稿やプロフィールの見直し\n体験メモから原稿を作成\n一週間分のテーマと投稿案を用意",
       "prompt": "最近の投稿を見て、反応の多いテーマを\n整理して。私のお店に合う投稿案を\n一週間分、下書きで作って。",
       "art": "A4",
-      "evidence": "動画内実演：Instagram分析・Threads原稿",
+      "evidence": "動画内実演＋Threadsの利用報告：SNS分析と原稿づくり",
       "sources": [
         "SHIFT",
-        "BIZ"
+        "BIZ",
+        "TSNS"
       ],
-      "notes": "SHIFT AI動画の13:10頃からInstagram投稿の傾向分析、14:17頃から体験メモをもとにThreadsの投稿案と週間案を作成している。動画ではThreadsへの公開は本人がコピーして手動で行っている。全SNSへの自動投稿を標準機能として保証しない。依頼文は講座用の例。Meta公式も広告・コンテンツ分析とキャンペーン草案の作成を紹介。"
+      "notes": "SHIFT AI動画の13:10頃からInstagram投稿の傾向分析、14:17頃から体験メモをもとにThreadsの投稿案と週間案を作成している。動画ではThreadsへの公開は本人がコピーして手動で行っている。全SNSへの自動投稿を標準機能として保証しない。依頼文は講座用の例。Meta公式も広告・コンテンツ分析とキャンペーン草案の作成を紹介。\nThreads収集メモでは@aki_no_room（2026-10-25）の活動分析・プロフィールレビューの体験談を紹介。今回、元投稿は再取得できていないため、収集済みメモをもとに要約。本人の体験談であり、分析精度を再現検証した結果ではない。"
     },
     {
       "type": "hero",
@@ -204,6 +213,64 @@
       "notes": "Spacesは2026年11月6日のMeta公式発表で紹介。Muse提供地域で利用可能とされる。公式例に注文管理、フリーランスの案件・締切・請求管理、旅行計画、結婚式の準備などがある。挿絵は画面のイメージであり、実際の製品UIではない。外部向けアプリの公開やチーム共同編集を標準機能として説明しない。"
     },
     {
+      "type": "use",
+      "title": "Threads事例① 発送管理",
+      "lead": "発送日の確認を、ひと目で",
+      "body": "発送日が近い順に表示\n期限を過ぎたら画面でお知らせ\n完了をカレンダーと同期した報告",
+      "prompt": "注文と発送期限を一覧にして。\n期限が近い順に並べ、発送したら\n完了を記録できる画面を作って。",
+      "art": "C0",
+      "evidence": "投稿者の報告：@nyaon2029 ／ 2026.11.15（未再現）",
+      "sources": [
+        "TSHIP"
+      ],
+      "notes": "収集済みThreads調査メモをもとに要約。@nyaon2029はハンドメイド作家の発送管理アプリを紹介し、期限順の並び替え、期限超過の通知表示、Google Calendarとの完了同期を報告。今回、元投稿は再取得できず動作も再現していない。特定の連携設定や全利用者での再現を保証しない。依頼文は講座向けに新規作成した例。",
+      "promptLabel": "依頼例：発送の一覧"
+    },
+    {
+      "type": "use",
+      "title": "Threads事例② 自分専用の記録帳",
+      "lead": "レシピや買い物の情報をまとめる",
+      "body": "レシピを食材や料理名から検索\n欲しいものの価格を定期確認\n日々の確認を、一画面に集める作例",
+      "prompt": "料理名・食材・カテゴリで探せる\n自分用のレシピ帳を作って。\n登録は手入力から始めたい。",
+      "art": "C1",
+      "evidence": "投稿者の報告：@sakiushijirushi ／ @track_nの返信（未再現）",
+      "sources": [
+        "TRECIPE",
+        "TAPPS"
+      ],
+      "notes": "収集済みメモの@sakiushijirushi（2026-11-15）は検索・カテゴリ分けができるレシピ帳を紹介。@track_n（2026-11-11）のアプリ披露スレッドの返信では、欲しいものリストの最安値を定期確認して通知する作例が紹介された。返信の個別投稿者と独立した投稿URLはメモに記載がないため、元スレッドを出典とする。両者は別の作例であり、同一の一つのアプリとして説明しない。今回、元投稿の再取得と動作再現は行えていない。依頼文は新規作成した講座用の例。",
+      "promptLabel": "依頼例：レシピ帳"
+    },
+    {
+      "type": "use",
+      "title": "Threads事例③ 部門ごとの役割分担",
+      "lead": "担当ごとに、目的と完成形を決める",
+      "body": "動画の企画や分析を担当する部門\n商品の調査や投稿戦略を考える部門\n話題ごとに作業を分ける運用例",
+      "prompt": "調査担当と原稿担当で作業を分けて。\nそれぞれの目的と完成形を整理し、\n私が確認できる形にまとめて。",
+      "art": "C2",
+      "evidence": "投稿者の運用例：@plant_fangs ／ 2026.11.16（未再現）",
+      "sources": [
+        "TORG",
+        "TAPPS"
+      ],
+      "notes": "収集済みメモでは@plant_fangsがYouTube事業部と楽天ROOM事業部という組織のたとえで、企画、分析、市場調査、投稿戦略を分けている。@track_nスレッド返信にも秘書室と部門に見立てる例がある。これは使い方の工夫であり、実際に独立した複数の従業員やエージェントが常時自律稼働する標準機能を保証するものではない。今回、元投稿再取得と実装検証は行えていない。依頼文は講座用の新規例。",
+      "promptLabel": "依頼例：役割分担"
+    },
+    {
+      "type": "use",
+      "title": "Threads事例④ ホームページ制作",
+      "lead": "放置していたサイトをリニューアル",
+      "body": "本人のサイトを1日で改修したという報告\n所要時間は、サイトの規模や素材で変化\n公開前に、内容とリンクを自分で確認",
+      "prompt": "公開中の自分のサイトを参考に、\n伝わりにくい点と修正案を整理して。\nまずはトップページの案を見せて。",
+      "art": "C3",
+      "evidence": "投稿者の体験談：@kaori_saito_555 ／ 2026.11.17（未再現）",
+      "sources": [
+        "TWEB"
+      ],
+      "notes": "収集済みメモでは@kaori_saito_555が自分のホームページを一日で全面リニューアルしたと報告。第三者が完成時間や出来栄えを検証したものではない。サイト規模、元の素材、外部ツールや公開手順などの詳細はメモから確定できず、今回の投稿再取得もできていない。「1日」は本人の申告として扱い、一般的な所要時間や性能の保証として使わない。依頼文は講座用の新規例。",
+      "promptLabel": "依頼例：サイト改修"
+    },
+    {
       "type": "hero",
       "title": "経費整理にも、活用の余地",
       "lead": "領収書を探す手間を減らす",
@@ -226,9 +293,11 @@
       "sources": [
         "JP",
         "BIZ",
-        "SHIFT"
+        "SHIFT",
+        "TBOUND",
+        "TPERM"
       ],
-      "notes": "日本向け公式発表では重要な操作前の本人確認、接続権限の変更・解除、学習利用のオプトアウト、実行履歴を紹介。事業者向け発表では承認なしの公開・送信・支出をしないと説明。具体的な確認動作は権限設定や機能で異なる。SHIFT AI動画の17分頃以降は学習利用設定、確認設定、接続先の絞り込みを実演。会社で認められた範囲のデータを使う。"
+      "notes": "日本向け公式発表では重要な操作前の本人確認、接続権限の変更・解除、学習利用のオプトアウト、実行履歴を紹介。事業者向け発表では承認なしの公開・送信・支出をしないと説明。具体的な確認動作は権限設定や機能で異なる。SHIFT AI動画の17分頃以降は学習利用設定、確認設定、接続先の絞り込みを実演。会社で認められた範囲のデータを使う。\nThreads収集メモの@analog_sugiyama（2026-11-12）は、返信漏れ確認や朝の予定整理を任せる一方、人が責任を持つ範囲を決めると説明。@pinakano0718（2026-11-11）は権限を利用者自身で調整する点に言及。今回の元投稿再取得と動作再現は行えていない。"
     },
     {
       "type": "prompt",
@@ -266,6 +335,22 @@
         "SPACES"
       ],
       "notes": "YouTubeの字幕は自動生成のため、固有名詞・数値は公式情報と照合した。AI is in wonderlandの動画にはFish AudioのPRを含む。動画後半のWindows PC連携は投稿者が構築した独自の仕組みであり、標準機能として扱っていない。SHISHIGAMI動画の営業・経費の依頼例は活用提案を含む。情報確認日：2026年11月18日。"
+    },
+    {
+      "type": "threadsSources",
+      "title": "Threads事例の出典",
+      "lead": "投稿者の体験談を、用途別に整理",
+      "sources": [
+        "TSHIP",
+        "TRECIPE",
+        "TAPPS",
+        "TORG",
+        "TWEB",
+        "TSNS",
+        "TBOUND",
+        "TPERM"
+      ],
+      "notes": "追加資料 research/threads-muse-usage-2026-11-18.md の収集済み要約をもとにスライド化した。今回、Web取得ではThreads元投稿を再取得できなかったため、第三者による独立検証済み事例とは扱わない。いいね数や返信数の大小を性能や普及の根拠にしない。投稿内容を転載せず、短い要約と出典URLを掲載。"
     }
   ]
 }
